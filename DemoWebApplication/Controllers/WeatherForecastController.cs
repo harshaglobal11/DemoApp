@@ -18,7 +18,7 @@ namespace DemoWebApplication.Controllers
    _logger = logger;
   }
 
-  [HttpGet(Name = "GetWeatherForecast")]
+  [HttpGet]
   public string Get()
   {
    return "One";
